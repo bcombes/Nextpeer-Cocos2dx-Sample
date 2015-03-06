@@ -24,7 +24,7 @@
 		<string>Icon-Small@2x.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.nextpeer.cocos2dx.sample</string>
+	<string>com.nextpeer.cocos2dx.sample.bcombe</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

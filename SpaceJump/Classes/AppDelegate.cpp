@@ -6,9 +6,15 @@
 #include "AppDelegate.h"
 #include "MainMenuScene.h"
 #include "CCNextpeer.h"
+#include "Util.h"
+#include "PluginManager.h"
+
 using namespace nextpeer;
 
 USING_NS_CC;
+
+using namespace cocos2d::plugin;
+std::string flurryKey = "";
 
 typedef struct tagResource
 {
@@ -69,6 +75,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // create a scene. it's an autorelease object
     auto scene = MainMenuScene::createScene();
     
+    this->initializeAnalyticsPlugin();
+    
     // Init Nextpeer
     this->initializeNextpeer();
     
@@ -93,7 +101,7 @@ void AppDelegate::initializeNextpeer()
     // Use the proper appKey according to the current platform
     // Those keys will work with the current bundle name ("com.nextpeer.cocos2dx.sample")
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    const char* appKey = "c35282cca868f462997a36737581f056";
+    const char* appKey = "6792bce497a871eb9f949ff180e43c18";
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     const char* appKey = "cf1f724ce11a9d7ae14ce7bd9d274e91";
 #endif
@@ -101,4 +109,21 @@ void AppDelegate::initializeNextpeer()
     
     // Register for events
     _nextpeerDelegate.registerForEvents();
+}
+
+void AppDelegate::initializeAnalyticsPlugin() {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    flurryKey = "B6QSXGTBD3CN2J29RPC8";
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    flurryKey = "";
+#endif
+    
+    ProtocolAnalytics* _pluginAnalytics = dynamic_cast<ProtocolAnalytics*> (PluginManager::getInstance()->loadPlugin("AnalyticsFlurry"));
+    
+    _pluginAnalytics->setDebugMode(true);
+    _pluginAnalytics->startSession(flurryKey.c_str());
+    _pluginAnalytics->setCaptureUncaughtException(true);
+    _pluginAnalytics->setSessionContinueMillis(10000);
+    //CCLOG("")
+    Util::setAnalyticsPlugin(_pluginAnalytics);
 }

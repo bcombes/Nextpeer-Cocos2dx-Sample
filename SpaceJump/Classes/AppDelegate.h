@@ -8,6 +8,7 @@
 
 #include "cocos2d.h"
 #include "NextpeerDelegate.h"
+#include "ProtocolAnalytics.h"
 
 
 /**
@@ -42,6 +43,8 @@ public:
     @param  the pointer of the application
     */
     virtual void applicationWillEnterForeground();
+    
+    void initializeAnalyticsPlugin();
 };
 
 #endif // __AppDelegate__

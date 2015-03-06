@@ -37,19 +37,6 @@
 		4E62A820199E869B00096DFC /* PlayerData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A80F199E869B00096DFC /* PlayerData.cpp */; };
 		4E62A821199E869B00096DFC /* PlayerHUDIcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A811199E869B00096DFC /* PlayerHUDIcon.cpp */; };
 		4E62A822199E869B00096DFC /* PlayerSpriteProfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A813199E869B00096DFC /* PlayerSpriteProfile.cpp */; };
-		4E62A844199E86C800096DFC /* CCNextpeer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A827199E86C800096DFC /* CCNextpeer.cpp */; };
-		4E62A845199E86C800096DFC /* mtrand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A82A199E86C800096DFC /* mtrand.cpp */; };
-		4E62A846199E86C800096DFC /* NextpeerEventQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A82C199E86C800096DFC /* NextpeerEventQueue.cpp */; };
-		4E62A847199E86C800096DFC /* NextpeerNotifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A82F199E86C800096DFC /* NextpeerNotifier.cpp */; };
-		4E62A848199E86C800096DFC /* NextpeerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A831199E86C800096DFC /* NextpeerPlayer.cpp */; };
-		4E62A849199E86C800096DFC /* NextpeerTournamentSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A833199E86C800096DFC /* NextpeerTournamentSupport.cpp */; };
-		4E62A84A199E86C800096DFC /* Rand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A835199E86C800096DFC /* Rand.cpp */; };
-		4E62A84B199E86C800096DFC /* Nextpeer_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A839199E86C800096DFC /* Nextpeer_iOS.mm */; };
-		4E62A84C199E86C800096DFC /* Nextpeer_iOSDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E62A83B199E86C800096DFC /* Nextpeer_iOSDelegate.mm */; };
-		4E62A84D199E86C800096DFC /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E62A83E199E86C800096DFC /* CHANGELOG.md */; };
-		4E62A84E199E86C800096DFC /* Nextpeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62A83F199E86C800096DFC /* Nextpeer.framework */; };
-		4E62A84F199E86C800096DFC /* NPResources_iPad_iPhone_Portrait.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E62A841199E86C800096DFC /* NPResources_iPad_iPhone_Portrait.bundle */; };
-		4E62A850199E86C800096DFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E62A842199E86C800096DFC /* README.md */; };
 		4E62A852199E86FE00096DFC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62A851199E86FE00096DFC /* StoreKit.framework */; };
 		4E62A854199E870600096DFC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62A853199E870600096DFC /* AdSupport.framework */; };
 		4E62A856199E870C00096DFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62A855199E870C00096DFC /* CFNetwork.framework */; };
@@ -103,6 +90,20 @@
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		E313C8E71AA866EB0058306B /* Nextpeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E313C8E51AA866EA0058306B /* Nextpeer.framework */; };
+		E313C8E81AA866EB0058306B /* NPResources_iPad_iPhone_Portrait.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E313C8E61AA866EB0058306B /* NPResources_iPad_iPhone_Portrait.bundle */; };
+		E313C92B1AA885F70058306B /* CCNextpeer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C9161AA885F70058306B /* CCNextpeer.cpp */; };
+		E313C92C1AA885F70058306B /* mtrand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C9191AA885F70058306B /* mtrand.cpp */; };
+		E313C92D1AA885F70058306B /* NextpeerEventQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C91B1AA885F70058306B /* NextpeerEventQueue.cpp */; };
+		E313C92E1AA885F70058306B /* NextpeerNotifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C91E1AA885F70058306B /* NextpeerNotifier.cpp */; };
+		E313C92F1AA885F70058306B /* NextpeerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C9201AA885F70058306B /* NextpeerPlayer.cpp */; };
+		E313C9301AA885F70058306B /* NextpeerTournamentSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C9221AA885F70058306B /* NextpeerTournamentSupport.cpp */; };
+		E313C9311AA885F70058306B /* Rand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C9241AA885F70058306B /* Rand.cpp */; };
+		E313C9321AA885F70058306B /* Nextpeer_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = E313C9281AA885F70058306B /* Nextpeer_iOS.mm */; };
+		E313C9331AA885F70058306B /* Nextpeer_iOSDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E313C92A1AA885F70058306B /* Nextpeer_iOSDelegate.mm */; };
+		E313C9361AA8A83E0058306B /* libPluginFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E313C9341AA8A83D0058306B /* libPluginFlurry.a */; };
+		E313C9371AA8A83E0058306B /* libPluginProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E313C9351AA8A83D0058306B /* libPluginProtocol.a */; };
+		E313C93D1AA8A9520058306B /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E313C93B1AA8A9520058306B /* Util.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +247,20 @@
 			remoteGlobalIDString = A07A4F9F178387730073F6A7;
 			remoteInfo = "CocosDenshion iOS";
 		};
+		E313C9421AA8B1ED0058306B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E313C93E1AA8B1ED0058306B /* PluginProtocol.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA09A321168ADBC2008C1C7B;
+			remoteInfo = PluginProtocol;
+		};
+		E313C9481AA8B1F60058306B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E313C9441AA8B1F60058306B /* PluginFlurry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA09A372168AFD41008C1C7B;
+			remoteInfo = PluginFlurry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -288,30 +303,6 @@
 		4E62A812199E869B00096DFC /* PlayerHUDIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerHUDIcon.h; path = ../Classes/PlayerHUDIcon.h; sourceTree = "<group>"; };
 		4E62A813199E869B00096DFC /* PlayerSpriteProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerSpriteProfile.cpp; path = ../Classes/PlayerSpriteProfile.cpp; sourceTree = "<group>"; };
 		4E62A814199E869B00096DFC /* PlayerSpriteProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerSpriteProfile.h; path = ../Classes/PlayerSpriteProfile.h; sourceTree = "<group>"; };
-		4E62A824199E86C800096DFC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		4E62A827199E86C800096DFC /* CCNextpeer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNextpeer.cpp; sourceTree = "<group>"; };
-		4E62A828199E86C800096DFC /* CCNextpeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNextpeer.h; sourceTree = "<group>"; };
-		4E62A82A199E86C800096DFC /* mtrand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mtrand.cpp; sourceTree = "<group>"; };
-		4E62A82B199E86C800096DFC /* mtrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtrand.h; sourceTree = "<group>"; };
-		4E62A82C199E86C800096DFC /* NextpeerEventQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerEventQueue.cpp; sourceTree = "<group>"; };
-		4E62A82D199E86C800096DFC /* NextpeerEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerEventQueue.h; sourceTree = "<group>"; };
-		4E62A82E199E86C800096DFC /* NextpeerNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerNotifications.h; sourceTree = "<group>"; };
-		4E62A82F199E86C800096DFC /* NextpeerNotifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerNotifier.cpp; sourceTree = "<group>"; };
-		4E62A830199E86C800096DFC /* NextpeerNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerNotifier.h; sourceTree = "<group>"; };
-		4E62A831199E86C800096DFC /* NextpeerPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerPlayer.cpp; sourceTree = "<group>"; };
-		4E62A832199E86C800096DFC /* NextpeerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerPlayer.h; sourceTree = "<group>"; };
-		4E62A833199E86C800096DFC /* NextpeerTournamentSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerTournamentSupport.cpp; sourceTree = "<group>"; };
-		4E62A834199E86C800096DFC /* NextpeerTournamentSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerTournamentSupport.h; sourceTree = "<group>"; };
-		4E62A835199E86C800096DFC /* Rand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rand.cpp; sourceTree = "<group>"; };
-		4E62A836199E86C800096DFC /* Rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rand.h; sourceTree = "<group>"; };
-		4E62A838199E86C800096DFC /* Nextpeer_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nextpeer_iOS.h; sourceTree = "<group>"; };
-		4E62A839199E86C800096DFC /* Nextpeer_iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Nextpeer_iOS.mm; sourceTree = "<group>"; };
-		4E62A83A199E86C800096DFC /* Nextpeer_iOSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nextpeer_iOSDelegate.h; sourceTree = "<group>"; };
-		4E62A83B199E86C800096DFC /* Nextpeer_iOSDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Nextpeer_iOSDelegate.mm; sourceTree = "<group>"; };
-		4E62A83E199E86C800096DFC /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		4E62A83F199E86C800096DFC /* Nextpeer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nextpeer.framework; sourceTree = "<group>"; };
-		4E62A841199E86C800096DFC /* NPResources_iPad_iPhone_Portrait.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NPResources_iPad_iPhone_Portrait.bundle; sourceTree = "<group>"; };
-		4E62A842199E86C800096DFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4E62A851199E86FE00096DFC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		4E62A853199E870600096DFC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		4E62A855199E870C00096DFC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -366,6 +357,33 @@
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		E313C8E51AA866EA0058306B /* Nextpeer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nextpeer.framework; sourceTree = "<group>"; };
+		E313C8E61AA866EB0058306B /* NPResources_iPad_iPhone_Portrait.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NPResources_iPad_iPhone_Portrait.bundle; sourceTree = "<group>"; };
+		E313C9161AA885F70058306B /* CCNextpeer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNextpeer.cpp; sourceTree = "<group>"; };
+		E313C9171AA885F70058306B /* CCNextpeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNextpeer.h; sourceTree = "<group>"; };
+		E313C9191AA885F70058306B /* mtrand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mtrand.cpp; sourceTree = "<group>"; };
+		E313C91A1AA885F70058306B /* mtrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtrand.h; sourceTree = "<group>"; };
+		E313C91B1AA885F70058306B /* NextpeerEventQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerEventQueue.cpp; sourceTree = "<group>"; };
+		E313C91C1AA885F70058306B /* NextpeerEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerEventQueue.h; sourceTree = "<group>"; };
+		E313C91D1AA885F70058306B /* NextpeerNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerNotifications.h; sourceTree = "<group>"; };
+		E313C91E1AA885F70058306B /* NextpeerNotifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerNotifier.cpp; sourceTree = "<group>"; };
+		E313C91F1AA885F70058306B /* NextpeerNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerNotifier.h; sourceTree = "<group>"; };
+		E313C9201AA885F70058306B /* NextpeerPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerPlayer.cpp; sourceTree = "<group>"; };
+		E313C9211AA885F70058306B /* NextpeerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerPlayer.h; sourceTree = "<group>"; };
+		E313C9221AA885F70058306B /* NextpeerTournamentSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NextpeerTournamentSupport.cpp; sourceTree = "<group>"; };
+		E313C9231AA885F70058306B /* NextpeerTournamentSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextpeerTournamentSupport.h; sourceTree = "<group>"; };
+		E313C9241AA885F70058306B /* Rand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rand.cpp; sourceTree = "<group>"; };
+		E313C9251AA885F70058306B /* Rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rand.h; sourceTree = "<group>"; };
+		E313C9271AA885F70058306B /* Nextpeer_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nextpeer_iOS.h; sourceTree = "<group>"; };
+		E313C9281AA885F70058306B /* Nextpeer_iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Nextpeer_iOS.mm; sourceTree = "<group>"; };
+		E313C9291AA885F70058306B /* Nextpeer_iOSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nextpeer_iOSDelegate.h; sourceTree = "<group>"; };
+		E313C92A1AA885F70058306B /* Nextpeer_iOSDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Nextpeer_iOSDelegate.mm; sourceTree = "<group>"; };
+		E313C9341AA8A83D0058306B /* libPluginFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPluginFlurry.a; sourceTree = "<group>"; };
+		E313C9351AA8A83D0058306B /* libPluginProtocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPluginProtocol.a; sourceTree = "<group>"; };
+		E313C93B1AA8A9520058306B /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = ../Classes/Util.cpp; sourceTree = "<group>"; };
+		E313C93C1AA8A9520058306B /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../Classes/Util.h; sourceTree = "<group>"; };
+		E313C93E1AA8B1ED0058306B /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = "../../cocos2d-x-3.2/plugin/protocols/proj.ios/PluginProtocol.xcodeproj"; sourceTree = "<group>"; };
+		E313C9441AA8B1F60058306B /* PluginFlurry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFlurry.xcodeproj; path = "../../cocos2d-x-3.2/plugin/plugins/flurry/proj.ios/PluginFlurry.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,19 +399,21 @@
 				4E62A85C199E872400096DFC /* MobileCoreServices.framework in Frameworks */,
 				4E62A85A199E871D00096DFC /* MessageUI.framework in Frameworks */,
 				4E62A858199E871600096DFC /* libsqlite3.dylib in Frameworks */,
+				E313C9371AA8A83E0058306B /* libPluginProtocol.a in Frameworks */,
 				4E62A856199E870C00096DFC /* CFNetwork.framework in Frameworks */,
 				4E62A854199E870600096DFC /* AdSupport.framework in Frameworks */,
 				4E62A852199E86FE00096DFC /* StoreKit.framework in Frameworks */,
 				1AC6FB2E180E99EB004C840B /* libbox2d iOS.a in Frameworks */,
 				1AC6FB2F180E99EB004C840B /* libchipmunk iOS.a in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */,
+				E313C9361AA8A83E0058306B /* libPluginFlurry.a in Frameworks */,
 				1AC6FB31180E99EB004C840B /* libcocos2dx-extensions iOS.a in Frameworks */,
 				1AC6FB32180E99EB004C840B /* libCocosDenshion iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
+				E313C8E71AA866EB0058306B /* Nextpeer.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				4E62A84E199E86C800096DFC /* Nextpeer.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
@@ -466,6 +486,8 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E313C93B1AA8A9520058306B /* Util.cpp */,
+				E313C93C1AA8A9520058306B /* Util.h */,
 				4E62A823199E86C800096DFC /* Nextpeer */,
 				4E62A7F7199E869B00096DFC /* AppDelegate.cpp */,
 				4E62A7F8199E869B00096DFC /* AppDelegate.h */,
@@ -531,6 +553,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E313C9441AA8B1F60058306B /* PluginFlurry.xcodeproj */,
+				E313C93E1AA8B1ED0058306B /* PluginProtocol.xcodeproj */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -545,6 +569,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E313C9341AA8A83D0058306B /* libPluginFlurry.a */,
+				E313C9351AA8A83D0058306B /* libPluginProtocol.a */,
+				E313C8E51AA866EA0058306B /* Nextpeer.framework */,
+				E313C8E61AA866EB0058306B /* NPResources_iPad_iPhone_Portrait.bundle */,
 				4E62A867199E883E00096DFC /* MediaPlayer.framework */,
 				4E62A865199E881900096DFC /* GameController.framework */,
 				4E62A863199E87A600096DFC /* CoreText.framework */,
@@ -579,9 +607,7 @@
 		4E62A823199E86C800096DFC /* Nextpeer */ = {
 			isa = PBXGroup;
 			children = (
-				4E62A824199E86C800096DFC /* .gitignore */,
 				4E62A825199E86C800096DFC /* Nextpeer-Cocos2D-X */,
-				4E62A842199E86C800096DFC /* README.md */,
 			);
 			name = Nextpeer;
 			path = ../Classes/Nextpeer;
@@ -590,78 +616,10 @@
 		4E62A825199E86C800096DFC /* Nextpeer-Cocos2D-X */ = {
 			isa = PBXGroup;
 			children = (
-				4E62A826199E86C800096DFC /* Classes */,
-				4E62A837199E86C800096DFC /* iOS */,
-				4E62A83C199E86C800096DFC /* SDK */,
+				E313C9151AA885F70058306B /* Classes */,
+				E313C9261AA885F70058306B /* iOS */,
 			);
 			path = "Nextpeer-Cocos2D-X";
-			sourceTree = "<group>";
-		};
-		4E62A826199E86C800096DFC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A827199E86C800096DFC /* CCNextpeer.cpp */,
-				4E62A828199E86C800096DFC /* CCNextpeer.h */,
-				4E62A829199E86C800096DFC /* mt_rand */,
-				4E62A82C199E86C800096DFC /* NextpeerEventQueue.cpp */,
-				4E62A82D199E86C800096DFC /* NextpeerEventQueue.h */,
-				4E62A82E199E86C800096DFC /* NextpeerNotifications.h */,
-				4E62A82F199E86C800096DFC /* NextpeerNotifier.cpp */,
-				4E62A830199E86C800096DFC /* NextpeerNotifier.h */,
-				4E62A831199E86C800096DFC /* NextpeerPlayer.cpp */,
-				4E62A832199E86C800096DFC /* NextpeerPlayer.h */,
-				4E62A833199E86C800096DFC /* NextpeerTournamentSupport.cpp */,
-				4E62A834199E86C800096DFC /* NextpeerTournamentSupport.h */,
-				4E62A835199E86C800096DFC /* Rand.cpp */,
-				4E62A836199E86C800096DFC /* Rand.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4E62A829199E86C800096DFC /* mt_rand */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A82A199E86C800096DFC /* mtrand.cpp */,
-				4E62A82B199E86C800096DFC /* mtrand.h */,
-			);
-			path = mt_rand;
-			sourceTree = "<group>";
-		};
-		4E62A837199E86C800096DFC /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A838199E86C800096DFC /* Nextpeer_iOS.h */,
-				4E62A839199E86C800096DFC /* Nextpeer_iOS.mm */,
-				4E62A83A199E86C800096DFC /* Nextpeer_iOSDelegate.h */,
-				4E62A83B199E86C800096DFC /* Nextpeer_iOSDelegate.mm */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		4E62A83C199E86C800096DFC /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A83D199E86C800096DFC /* iOS */,
-			);
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		4E62A83D199E86C800096DFC /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A83E199E86C800096DFC /* CHANGELOG.md */,
-				4E62A83F199E86C800096DFC /* Nextpeer.framework */,
-				4E62A840199E86C800096DFC /* Resources */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		4E62A840199E86C800096DFC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4E62A841199E86C800096DFC /* NPResources_iPad_iPhone_Portrait.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		503AE0F517EB97AB00D1A890 /* Icons */ = {
@@ -693,6 +651,63 @@
 			);
 			name = Resources;
 			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		E313C9151AA885F70058306B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E313C9161AA885F70058306B /* CCNextpeer.cpp */,
+				E313C9171AA885F70058306B /* CCNextpeer.h */,
+				E313C9181AA885F70058306B /* mt_rand */,
+				E313C91B1AA885F70058306B /* NextpeerEventQueue.cpp */,
+				E313C91C1AA885F70058306B /* NextpeerEventQueue.h */,
+				E313C91D1AA885F70058306B /* NextpeerNotifications.h */,
+				E313C91E1AA885F70058306B /* NextpeerNotifier.cpp */,
+				E313C91F1AA885F70058306B /* NextpeerNotifier.h */,
+				E313C9201AA885F70058306B /* NextpeerPlayer.cpp */,
+				E313C9211AA885F70058306B /* NextpeerPlayer.h */,
+				E313C9221AA885F70058306B /* NextpeerTournamentSupport.cpp */,
+				E313C9231AA885F70058306B /* NextpeerTournamentSupport.h */,
+				E313C9241AA885F70058306B /* Rand.cpp */,
+				E313C9251AA885F70058306B /* Rand.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E313C9181AA885F70058306B /* mt_rand */ = {
+			isa = PBXGroup;
+			children = (
+				E313C9191AA885F70058306B /* mtrand.cpp */,
+				E313C91A1AA885F70058306B /* mtrand.h */,
+			);
+			path = mt_rand;
+			sourceTree = "<group>";
+		};
+		E313C9261AA885F70058306B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E313C9271AA885F70058306B /* Nextpeer_iOS.h */,
+				E313C9281AA885F70058306B /* Nextpeer_iOS.mm */,
+				E313C9291AA885F70058306B /* Nextpeer_iOSDelegate.h */,
+				E313C92A1AA885F70058306B /* Nextpeer_iOSDelegate.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E313C93F1AA8B1ED0058306B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E313C9431AA8B1ED0058306B /* libPluginProtocol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E313C9451AA8B1F60058306B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E313C9491AA8B1F60058306B /* libPluginFlurry.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -751,7 +766,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = MDDB52YB8L;
+						DevelopmentTeam = P58GZVE3TR;
 					};
 				};
 			};
@@ -771,6 +786,14 @@
 				{
 					ProductGroup = 1AC6FAE6180E9839004C840B /* Products */;
 					ProjectRef = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+				},
+				{
+					ProductGroup = E313C9451AA8B1F60058306B /* Products */;
+					ProjectRef = E313C9441AA8B1F60058306B /* PluginFlurry.xcodeproj */;
+				},
+				{
+					ProductGroup = E313C93F1AA8B1ED0058306B /* Products */;
+					ProjectRef = E313C93E1AA8B1ED0058306B /* PluginProtocol.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -852,6 +875,20 @@
 			remoteRef = 1AC6FB0E180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E313C9431AA8B1ED0058306B /* libPluginProtocol.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginProtocol.a;
+			remoteRef = E313C9421AA8B1ED0058306B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E313C9491AA8B1F60058306B /* libPluginFlurry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginFlurry.a;
+			remoteRef = E313C9481AA8B1F60058306B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -867,22 +904,20 @@
 				4E62A88A199E893F00096DFC /* Icon-60@2x.png in Resources */,
 				4E62A7C9199E866700096DFC /* ipadhd in Resources */,
 				4E62A7C8199E866700096DFC /* ipad in Resources */,
+				E313C8E81AA866EB0058306B /* NPResources_iPad_iPhone_Portrait.bundle in Resources */,
 				4E62A891199E893F00096DFC /* Icon-Small.png in Resources */,
 				4E62A893199E893F00096DFC /* Icon.png in Resources */,
-				4E62A850199E86C800096DFC /* README.md in Resources */,
 				4E62A7CA199E866700096DFC /* iphone in Resources */,
 				4E62A889199E893F00096DFC /* Icon-60.png in Resources */,
 				4E62A884199E893F00096DFC /* Default-568h@2x.png in Resources */,
 				4E62A88E199E893F00096DFC /* Icon-76@2x.png in Resources */,
 				4E62A88C199E893F00096DFC /* Icon-72@2x.png in Resources */,
-				4E62A84F199E86C800096DFC /* NPResources_iPad_iPhone_Portrait.bundle in Resources */,
 				4E62A88D199E893F00096DFC /* Icon-76.png in Resources */,
 				4E62A88B199E893F00096DFC /* Icon-72.png in Resources */,
 				4E62A896199E893F00096DFC /* iTunesArtwork.png in Resources */,
 				4E62A888199E893F00096DFC /* Icon-40@2x.png in Resources */,
 				4E62A897199E893F00096DFC /* iTunesArtwork@2x.png in Resources */,
 				4E62A887199E893F00096DFC /* Icon-40.png in Resources */,
-				4E62A84D199E86C800096DFC /* CHANGELOG.md in Resources */,
 				4E62A892199E893F00096DFC /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,32 +937,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E313C93D1AA8A9520058306B /* Util.cpp in Sources */,
 				4E62A81E199E869B00096DFC /* OpponentIsReadyMessage.cpp in Sources */,
-				4E62A84C199E86C800096DFC /* Nextpeer_iOSDelegate.mm in Sources */,
+				E313C9331AA885F70058306B /* Nextpeer_iOSDelegate.mm in Sources */,
 				4E62A822199E869B00096DFC /* PlayerSpriteProfile.cpp in Sources */,
 				4E62A816199E869B00096DFC /* GameScene.cpp in Sources */,
+				E313C92E1AA885F70058306B /* NextpeerNotifier.cpp in Sources */,
 				4E62A899199E893F00096DFC /* RootViewController.mm in Sources */,
-				4E62A847199E86C800096DFC /* NextpeerNotifier.cpp in Sources */,
+				E313C92B1AA885F70058306B /* CCNextpeer.cpp in Sources */,
+				E313C9311AA885F70058306B /* Rand.cpp in Sources */,
 				4E62A820199E869B00096DFC /* PlayerData.cpp in Sources */,
-				4E62A844199E86C800096DFC /* CCNextpeer.cpp in Sources */,
-				4E62A84A199E86C800096DFC /* Rand.cpp in Sources */,
 				4E62A81F199E869B00096DFC /* OpponentPositionHeightUpdate.cpp in Sources */,
 				4E62A818199E869B00096DFC /* MainMenuScene.cpp in Sources */,
 				4E62A815199E869B00096DFC /* AppDelegate.cpp in Sources */,
 				4E62A81D199E869B00096DFC /* Opponent.cpp in Sources */,
 				4E62A81A199E869B00096DFC /* MultiplayerGameState.cpp in Sources */,
 				4E62A821199E869B00096DFC /* PlayerHUDIcon.cpp in Sources */,
-				4E62A84B199E86C800096DFC /* Nextpeer_iOS.mm in Sources */,
+				E313C9321AA885F70058306B /* Nextpeer_iOS.mm in Sources */,
 				4E62A898199E893F00096DFC /* main.m in Sources */,
+				E313C92D1AA885F70058306B /* NextpeerEventQueue.cpp in Sources */,
+				E313C9301AA885F70058306B /* NextpeerTournamentSupport.cpp in Sources */,
 				4E62A81C199E869B00096DFC /* NextpeerDelegate.cpp in Sources */,
-				4E62A846199E86C800096DFC /* NextpeerEventQueue.cpp in Sources */,
-				4E62A849199E86C800096DFC /* NextpeerTournamentSupport.cpp in Sources */,
 				4E62A819199E869B00096DFC /* MessageParser.cpp in Sources */,
+				E313C92C1AA885F70058306B /* mtrand.cpp in Sources */,
 				4E62A81B199E869B00096DFC /* MultiplayerMessage.cpp in Sources */,
-				4E62A845199E86C800096DFC /* mtrand.cpp in Sources */,
+				E313C92F1AA885F70058306B /* NextpeerPlayer.cpp in Sources */,
 				4E62A883199E893F00096DFC /* AppController.mm in Sources */,
 				4E62A817199E869B00096DFC /* Hero.cpp in Sources */,
-				4E62A848199E86C800096DFC /* NextpeerPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,10 +1036,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Classes/Nextpeer/Nextpeer-Cocos2D-X/SDK/iOS\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -1020,15 +1058,17 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../cocos2d/plugin/protocols/include\"";
 			};
 			name = Debug;
 		};
@@ -1037,10 +1077,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Classes/Nextpeer/Nextpeer-Cocos2D-X/SDK/iOS\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1055,15 +1097,17 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../cocos2d/plugin/protocols/include\"";
 			};
 			name = Release;
 		};

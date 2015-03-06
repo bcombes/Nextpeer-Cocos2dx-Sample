@@ -2,6 +2,7 @@
 
 #include "PlayerSpriteProfile.h"
 #include "CCNextpeer.h"
+#include "Util.h"
 
 #define HUD_ITEMS_SPACING 10.0f
 
@@ -36,6 +37,8 @@ bool MainMenuScene::init()
     {
         return false;
     }
+    
+    Util::getAnalyticsPlugin()->logEvent("Hitting Main Menu");
     
     createScreen();
     
